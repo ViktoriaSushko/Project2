@@ -33,7 +33,7 @@ int main() {
    SetConsoleOutputCP(1251);   
     int menu;
     cout << "Enter task\n";
-
+    //my commit 
     do {
         cout << "1 - Print info about file\n";
         cout << "2 - View some folder\n";
