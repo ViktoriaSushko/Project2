@@ -8,6 +8,7 @@
 #include <windows.h>
 #include <direct.h>
 using namespace std;
+//info file 
 void InfoFile(const char* filename) {
     _finddata_t finfo;
     if (_findfirst(filename, &finfo) != -1) {
